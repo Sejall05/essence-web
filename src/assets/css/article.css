@@ -1,0 +1,217 @@
+/* Article Banner */
+.article-banner {
+  position: relative;
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.article-banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(8, 15, 35, 0.75);
+}
+
+.article-banner .container {
+  position: relative;
+  z-index: 2;
+}
+
+.article-banner h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 25px 0;
+
+  margin-top: 25px;
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+}
+
+.article-banner p {
+  color: #94a3b8;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.article-banner span {
+  display: inline-block;
+  background: #38bdf8;
+  /* background: #535b65; */
+  padding: 10px 25px;
+  border-radius: 40px;
+  font-size: 18px;
+}
+
+/* Article Section */
+.article-section {
+  background: #0f172a;
+  padding: 80px 0;
+  color: white;
+}
+
+.article-content {
+  max-width: 900px;
+  margin: auto;
+}
+
+.article-content h2 {
+  font-size: 32px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.article-content p {
+  color: #a1aab4;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.article-section li {
+  color: #a1aab4;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.back-blog-btn {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 12px 30px;
+  background: #3abae1;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+.back-blog-btn:hover {
+  background: #f9f9fa;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .article-banner {
+    padding: 120px 0 60px;
+    height: 450px;
+  }
+
+  .article-banner h1 {
+    font-size: 32px;
+    line-height: 1.4;
+    margin: 18px 0;
+  }
+
+  .article-image {
+    height: 250px;
+  }
+
+  .article-content h2 {
+    font-size: 25px;
+  }
+
+  .article-content p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .article-banner span {
+    font-size: 14px;
+    padding: 8px 18px;
+  }
+
+  .article-section {
+    padding: 45px 15px;
+  }
+
+  .article-content {
+    max-width: 100%;
+  }
+
+  .article-content h2 {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 12px;
+  }
+
+  .article-content p {
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: justify;
+  }
+
+  .article-section li {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+
+  .back-blog-btn {
+    width: 100%;
+    text-align: center;
+    padding: 14px;
+    font-size: 16px;
+    margin-top: 35px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 992px) {
+  .article-banner {
+    height: 380px;
+    padding: 80px 20px;
+  }
+
+  .article-banner span {
+    font-size: 16px;
+    padding: 8px 22px;
+  }
+
+  .article-banner h1 {
+    font-size: 42px;
+    margin: 20px 0;
+    line-height: 1.3;
+  }
+
+  .article-banner p {
+    font-size: 17px;
+  }
+
+  .article-section {
+    padding: 60px 20px;
+  }
+
+  .article-content {
+    max-width: 100%;
+  }
+
+  .article-content h2 {
+    font-size: 28px;
+    margin-top: 35px;
+  }
+
+  .article-content p {
+    font-size: 17px;
+    line-height: 1.8;
+  }
+
+  .back-blog-btn {
+    padding: 12px 28px;
+    font-size: 16px;
+  }
+}
+
+.AI_article,
+.MobileApp_article,
+.FutureWebDevelopment_article,
+.React_article,
+.SEO,
+.UI_UX_article,
+.WebDevTrends_article {
+  padding-top: 85px;
+}

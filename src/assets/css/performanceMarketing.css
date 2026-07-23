@@ -1,0 +1,748 @@
+.PerformanceMarketing {
+  padding-top: 65px;
+}
+
+.pm-hero,
+.pm-intro,
+.pm-services,
+.pm-why,
+.pm-process,
+.pm-cta {
+  width: 100%;
+}
+
+.section-padding {
+  padding: 100px 0;
+}
+
+.pm-small-title {
+  display: inline-block;
+  color: #3abae1;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.pm-hero {
+  min-height: 650px;
+  display: flex;
+  align-items: center;
+  background: #0b1023;
+  color: #ffffff;
+  padding: 100px 0;
+  overflow: hidden;
+}
+
+.pm-hero-content {
+  max-width: 700px;
+}
+
+.pm-tag {
+  display: inline-block;
+  color: #8f98ae;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.pm-hero h1 {
+  font-size: 64px;
+  line-height: 1.15;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.pm-hero h1 span,
+.pm-section-content h2 span,
+.pm-heading h2 span,
+.pm-why-heading h2 span,
+.pm-cta h2 span {
+  color: #3abae1;
+}
+
+.pm-hero p {
+  max-width: 650px;
+  color: #c4c9d8;
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 35px;
+}
+
+.get-start-btn {
+  background-color: #3abae1;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 8px 10px rgba(58, 186, 225, 0.1);
+}
+
+.get-start-btn:hover {
+  background-color: #2ca9cf;
+  box-shadow: 0 8px 10px rgba(58, 186, 225, 0.2);
+}
+
+.pm-hero-image {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.pm-hero-image img {
+  width: 90%;
+  height: auto;
+  border-radius: 20px;
+  display: block;
+  object-fit: contain;
+}
+
+/* Introduction */
+.pm-intro {
+  background: #0b1023;
+}
+
+.pm-section-content {
+  padding-right: 50px;
+}
+
+.pm-section-content h2,
+.pm-heading h2,
+.pm-why-heading h2,
+.pm-cta h2 {
+  font-size: 46px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #0b1023;
+  margin-bottom: 25px;
+}
+
+.pm-section-content p,
+.pm-heading p,
+.pm-why-heading p {
+  color: #d8c8c8;
+  font-size: 17px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.pm-outline-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 13px 28px;
+  border: 1px solid #3abae1;
+  color: #3abae1;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.pm-outline-btn:hover {
+  background: #3abae1;
+  color: #ffffff;
+}
+
+.pm-result-box {
+  padding: 40px;
+  background: #0e142c;
+  border-radius: 15px;
+}
+
+.result-item {
+  display: flex;
+  gap: 25px;
+  padding: 25px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.result-item:last-child {
+  border-bottom: none;
+}
+
+.result-item h3 {
+  color: #d8c8c8;
+  font-size: 20px;
+  min-width: 40px;
+}
+
+.result-item h4 {
+  color: #d8c8c8;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.result-item p {
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Services */
+.pm-services {
+  background: #0e142c;
+}
+
+.pm-heading {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.pm-heading span {
+  color: #3abae1;
+}
+
+.pm-heading h2 {
+  color: #fdfdfd;
+}
+
+.pm-heading p {
+  margin-bottom: 0;
+}
+
+.pm-service-card {
+  height: 100%;
+  padding: 40px 35px;
+  background: #0b1023;
+  border-radius: 12px;
+}
+
+.pm-icon {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: #717681;
+  color: black; */
+  background-color: #3abae1;
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.pm-service-card h3 {
+  color: #c9cee2;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+
+.pm-service-card p {
+  color: #c9bcbc;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.pm-service-card ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.pm-service-card li {
+  color: #c9bcbc;
+  padding: 7px 0;
+  position: relative;
+  padding-left: 20px;
+}
+
+.pm-service-card li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #3abae1;
+  font-weight: bold;
+}
+
+/* WHY CHOOSE US */
+.pm-why {
+  background: #0b1023;
+  color: #ffffff;
+}
+
+.pm-why-heading {
+  padding-right: 40px;
+}
+
+.pm-why-heading h2 {
+  color: #ffffff;
+}
+
+.pm-why-heading p {
+  color: #bfc4d2;
+}
+
+.pm-benefit {
+  height: 100%;
+  padding: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.pm-benefit:hover {
+  border-color: #3abae1;
+}
+
+.pm-benefit span {
+  color: #3abae1;
+  font-weight: 700;
+}
+
+.pm-benefit h3 {
+  color: #ffffff;
+  font-size: 21px;
+  margin: 15px 0;
+}
+
+.pm-benefit p {
+  color: #bfc4d2;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* PROCESS */
+.pm-process {
+  background: #0e142c;
+}
+
+.pm-process-card {
+  height: 100%;
+  padding: 35px 30px;
+  border: 1px solid #8b8f9bb6;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.pm-process-card:hover {
+  border-color: #3abae1;
+}
+
+.pm-process-card span {
+  color: #3abae1;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.pm-process-card h3 {
+  color: #fdf9f9;
+  margin: 20px 0 12px;
+  font-size: 22px;
+}
+
+.pm-process-card p {
+  color: #c9bcbc;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* Call To Action */
+
+.pm-cta {
+  padding: 100px 0;
+  background: #0b1023;
+}
+
+.pm-cta-content {
+  max-width: 800px;
+  margin: auto;
+}
+
+.pm-cta h2 {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.pm-cta p {
+  max-width: 650px;
+  margin: 0 auto 30px;
+  color: #666;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.get-quote-btn {
+  background-color: #3abae1;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 6px 30px;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 8px 10px rgba(58, 186, 225, 0.1);
+}
+
+.get-quote-btn:hover {
+  background-color: #2ca9cf;
+  box-shadow: 0 8px 10px rgba(58, 186, 225, 0.2);
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+  .PerformanceMarketing {
+    padding-top: 60px;
+  }
+
+  .section-padding {
+    padding: 60px 0;
+  }
+
+  /* Hero */
+  .pm-hero {
+    padding: 60px 0;
+  }
+
+  .pm-tag {
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+  }
+
+  .pm-hero h1 {
+    font-size: 38px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+
+  .pm-hero p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+  }
+
+  .pm-hero-content {
+    padding-top: 40px;
+  }
+
+  .get-start-btn {
+    font-size: 16px;
+    padding: 10px 25px;
+  }
+
+  .pm-hero-image {
+    margin-top: 20px;
+    width: 350px;
+    height: 350px;
+    margin: 10px auto 0;
+    display: block;
+    object-fit: contain;
+  }
+
+  .pm-hero-image img {
+    /* width: 70%; */
+    width: 350px;
+    height: 350px;
+    margin-top: 10px;
+    justify-content: center;
+  }
+
+  .pm-hero .row {
+    flex-direction: column-reverse;
+  }
+
+  /* Common Headings */
+  .pm-small-title {
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    margin-bottom: 12px;
+  }
+
+  .pm-section-content h2,
+  .pm-heading h2,
+  .pm-why-heading h2,
+  .pm-cta h2 {
+    font-size: 34px;
+    line-height: 1.25;
+    margin-bottom: 20px;
+    color: white;
+  }
+
+  .pm-section-content p,
+  .pm-heading p,
+  .pm-why-heading p {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  /* Introduction */
+  .pm-section-content {
+    margin-bottom: 40px;
+  }
+
+  .pm-outline-btn {
+    padding: 11px 22px;
+    font-size: 15px;
+  }
+
+  .pm-result-box {
+    padding: 20px;
+    border-radius: 12px;
+  }
+
+  .result-item {
+    gap: 15px;
+    padding: 20px 0;
+  }
+
+  .result-item h3 {
+    font-size: 17px;
+    min-width: 30px;
+  }
+
+  .result-item h4 {
+    font-size: 18px;
+  }
+
+  .result-item p {
+    font-size: 14px;
+  }
+
+  /* Services */
+  .pm-heading {
+    max-width: 100%;
+  }
+
+  .pm-service-card {
+    padding: 30px 25px;
+  }
+
+  .pm-service-card h3 {
+    font-size: 21px;
+  }
+
+  .pm-service-card p,
+  .pm-service-card li {
+    font-size: 15px;
+  }
+
+  /* Why Choose Us */
+  .pm-why-heading {
+    margin-bottom: 30px;
+  }
+
+  .pm-benefit {
+    padding: 25px;
+  }
+
+  .pm-benefit h3 {
+    font-size: 19px;
+  }
+
+  .pm-benefit p {
+    font-size: 15px;
+  }
+
+  /* Process */
+  .pm-process-card {
+    padding: 30px 25px;
+  }
+
+  .pm-process-card h3 {
+    font-size: 20px;
+  }
+
+  .pm-process-card p {
+    font-size: 15px;
+  }
+
+  /* CTA */
+  .pm-cta {
+    padding: 70px 0;
+  }
+
+  .pm-cta p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .get-quote-btn {
+    padding: 8px 25px;
+  }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  .PerformanceMarketing {
+    padding-top: 65px;
+  }
+
+  .section-padding {
+    padding: 80px 0;
+  }
+
+  /* Hero */
+  .pm-hero {
+    min-height: auto;
+    padding: 80px 0;
+  }
+
+  .pm-hero-content {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 40px;
+  }
+
+  .pm-hero h1 {
+    font-size: 48px;
+  }
+
+  .pm-hero p {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pm-hero-image {
+    margin-top: 20px;
+    width: 350px;
+    height: 350px;
+    margin: 10px auto 0;
+    display: block;
+    object-fit: contain;
+  }
+
+  .pm-hero-image img {
+    /* width: 70%; */
+    width: 350px;
+    height: 350px;
+    margin-top: 10px;
+    justify-content: center;
+  }
+
+  .pm-hero .row {
+    flex-direction: column-reverse;
+  }
+
+  /* Introduction */
+  .pm-section-content {
+    padding-right: 0;
+    margin-bottom: 50px;
+  }
+
+  .pm-section-content h2 {
+    color: white;
+  }
+
+  /* Why Choose Us */
+  .pm-why-heading {
+    padding-right: 0;
+    margin-bottom: 40px;
+  }
+
+  /* Services */
+  .pm-service-card {
+    padding: 35px 30px;
+  }
+}
+
+/* Small Mobile Devices */
+@media (max-width: 480px) {
+  .PerformanceMarketing {
+    padding-top: 55px;
+  }
+
+  .section-padding {
+    padding: 50px 0;
+  }
+
+  /* Hero */
+  .pm-hero {
+    padding: 50px 15px;
+  }
+
+  .pm-hero h1 {
+    font-size: 32px;
+  }
+
+  .pm-hero p {
+    font-size: 15px;
+  }
+
+  .pm-hero-image img {
+    width: 100%;
+    border-radius: 12px;
+  }
+
+  /* Headings */
+  .pm-section-content h2,
+  .pm-heading h2,
+  .pm-why-heading h2,
+  .pm-cta h2 {
+    font-size: 29px;
+  }
+
+  .pm-section-content p,
+  .pm-heading p,
+  .pm-why-heading p {
+    font-size: 15px;
+  }
+
+  /* Result Box */
+  .pm-result-box {
+    padding: 15px 20px;
+  }
+
+  .result-item {
+    gap: 12px;
+    padding: 18px 0;
+  }
+
+  .result-item h3 {
+    font-size: 16px;
+    min-width: 28px;
+  }
+
+  .result-item h4 {
+    font-size: 17px;
+  }
+
+  .result-item p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  /* Service Cards */
+  .pm-service-card {
+    padding: 25px 20px;
+  }
+
+  .pm-icon {
+    width: 42px;
+    height: 42px;
+    margin-bottom: 20px;
+  }
+
+  .pm-service-card h3 {
+    font-size: 20px;
+  }
+
+  /* Benefits */
+  .pm-benefit {
+    padding: 22px;
+  }
+
+  /* Process */
+  .pm-process-card {
+    padding: 25px 20px;
+  }
+
+  /* CTA */
+  .pm-cta {
+    padding: 60px 15px;
+  }
+
+  .pm-cta h2 {
+    font-size: 28px;
+  }
+}

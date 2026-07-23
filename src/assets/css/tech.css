@@ -1,0 +1,48 @@
+/* Technologies Section */
+.nav-tabs {
+  border-bottom: none;
+}
+
+.nav-tabs .nav-link {
+  border: none;
+}
+
+.technologies {
+  background: #0f142c;
+  padding: 60px 20px;
+}
+
+.tech-title {
+  color: white;
+  font-size: 45px;
+  font-weight: 700;
+  font-family: "Montserrat Alternates", sans-serif !important;
+}
+
+.tech-btn {
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  color: #fff !important;
+  padding: 8px 30px !important;
+  border: none !important;
+  border-radius: 6px !important;
+}
+
+.tech-btn:hover {
+  color: #3abae1 !important;
+  border: none !important;
+  background: #232842 !important;
+}
+
+.tech-btn.active {
+  background: #232842 !important;
+  color: #3abae1 !important;
+}
+
+.tech-box {
+  padding: 10px 20px;
+  background-color: #3abae1;
+  color: white;
+  border-radius: 10px;
+  font-weight: 600;
+}
